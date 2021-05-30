@@ -1,0 +1,45 @@
+.orange {
+width: 150px;
+height: 100px;
+background: orange;
+  position: absolute;
+ left: 10px;
+ top: 10px;
+}
+.green {
+width: 150px;
+height: 100px;
+background: green;
+ position: absolute;
+  left: 30px;
+  top: 30px;
+}
+.blue {
+width: 150px;
+height: 100px;
+background: blue;
+ position: absolute;
+  left: 50px;
+  top: 50px;
+}
+.purple {
+width: 150px;
+height: 100px;
+background: purple;
+   position: absolute;
+  left: 70px;
+  top: 70px;
+}
+
+/* sorry, don`t works */
+
+
+
+.blue:hover{
+animation-name: bl;
+animation-duration: 3s;
+  
+@keyframes bl{
+ from{background: green;}
+ to{background: red;}
+}
